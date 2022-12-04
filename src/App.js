@@ -1,10 +1,10 @@
-import Board from './Board/Board.jsx';
+import Playground from './playground/Playground.js';
 
 import './App.css';
 
 const App = () => (
   <div className="App">
-    <Board></Board>
+    <Playground></Playground>
   </div>
 );
 
