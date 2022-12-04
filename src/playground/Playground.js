@@ -183,7 +183,8 @@ const Playground = () => {
 
 	return (
 		<>
-			<h1>Score: {score}</h1>
+    <p>Get your snake to eat all the food to get the highest score possible. Watch out for the yellow food, it can be your saviour, but can also cost you the game!</p>
+			<p>Score: {score}</p>
 			<div className="Playground">
 				{Playground.map((row, rowIdx) => (
 					<div key={rowIdx} className="row">
